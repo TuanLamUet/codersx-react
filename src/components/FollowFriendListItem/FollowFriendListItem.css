@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.friend {
+  display: flex;
+  margin: 7px 22px;
+}
+.avatar img {
+  width: 30px;
+  border-radius: 50%;
+}
+.avatar , .follow {
+  display: flex;
+  align-items: center;
+}
+.info {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+.info .recommended {
+  font-size: 12px;
+  color: #c7c7c7;
+}
+.follow a {
+  text-decoration: none;
+  font-size: 14px;
+}
